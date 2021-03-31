@@ -34,3 +34,6 @@ Please do install above tools and/or libraries for running the code and visualiz
     Simlulate the voltage source using ".tran 150m" command and observe the waveforms
 
 Thus, from the above steps we are able to convert any 28*28 digit image to it's corresponding spike signals. 
+
+## Refernce Paper
+This is the [link](https://ieeexplore.ieee.org/document/6894575/figures#figures) of IEEE Paper currently being studied for BTP.
