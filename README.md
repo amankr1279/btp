@@ -11,7 +11,7 @@ image2spike.py is python code that reads images from MNIST handwritten digits da
 * Pandas
 * LtSpice
 
-Please do install above tools and libraries for running the code.
+Please do install above tools and/or libraries for running the code and visualization of waveforms.
 
 ## How to use
 
