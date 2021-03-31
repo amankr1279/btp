@@ -5,7 +5,7 @@ image2spike.py is python code that reads images from MNIST handwritten digits da
 ## How to use
 
 * Step 1:
-    Download MNIST Dataset from [this link][https://www.kaggle.com/c/digit-recognizer/data].
+    Download MNIST Dataset from [this link](https://www.kaggle.com/c/digit-recognizer/data) .
 
 * Step 2:
     Download python code and put "train.csv" in same directory.
