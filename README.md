@@ -2,6 +2,17 @@
 
 image2spike.py is python code that reads images from MNIST handwritten digits dataset and converts it into spike signals. Theses spike signals are then fed into a Piece-wise Linear(PWL) voltage source in LtSpice.
 
+## Requirements
+
+* Python 3.6.9
+* NumPy
+* Matplotlib
+* OpenCV
+* Pandas
+* LtSpice
+
+Please do install above tools and libraries for running the code.
+
 ## How to use
 
 * Step 1:
@@ -11,7 +22,7 @@ image2spike.py is python code that reads images from MNIST handwritten digits da
     Download python code and put "train.csv" in same directory.
 
 * Step 3:
-    If you read the python code currently it is wroking for image_name = "5". It can be changed for different images.
+    If you read the python code currently has image_name = "5". It can be changed for different images.
 
 * Step 4:
     Run the python code. An output text file named "voltage_for_{image_name}" is produced.
