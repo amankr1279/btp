@@ -1,6 +1,6 @@
 # BTP Sem 1 Mid Sem Work
 
-image2spike.py is python code that reads images from MNIST handwritten digits dataset and converts it into spike signals. Theses spike signals are then fed into a Piece-wise Linear(PWL) voltage source in LtSpice.
+image2spike.py is python code that reads images from MNIST handwritten digits dataset and converts it into spike signals. These spike signals are then fed into a Piecewise Linear(PWL) voltage source in LtSpice.
 
 ## Requirements
 
@@ -11,7 +11,7 @@ image2spike.py is python code that reads images from MNIST handwritten digits da
 * Pandas
 * LtSpice
 
-Please do install above tools and/or libraries for running the code and visualization of waveforms.
+Please install above tools and/or libraries for running the code and visualization of waveforms.
 
 ## How to use
 
@@ -28,10 +28,10 @@ Please do install above tools and/or libraries for running the code and visualiz
     Run the python code. An output text file named "voltage_for_{image_name}" is produced.
 
 * Step 5:
-    Make a voltage source in Ltspice (PWL type) and give the pathname of the text file generated in previous step.
+    Make a voltage source in Ltspice (PWL type) and give the pathname of the text file generated in the previous step.
 
 * Step 6:
-    Simlulate the voltage source using ".tran 150m" command and observe the waveforms
+    Simulate the voltage source using ".tran 150m" command and observe the waveforms
 
 Thus, from the above steps we are able to convert any 28*28 digit image to it's corresponding spike signals. 
 
